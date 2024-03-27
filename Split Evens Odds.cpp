@@ -22,11 +22,11 @@ void test() {
     cout << endl;
 
     list.splitEvensOdds(evensList, oddsList);
-
+    // list is now empty
     cout << "evensList: ";
     for (linkedListIterator<int> it = evensList.begin(); it != evensList.end(); ++it) {
         cout << *it << " ";
-    }
+    } 
     cout << endl;
 
     cout << "oddsList: ";
@@ -34,7 +34,7 @@ void test() {
         cout << *it << " ";
     }
     cout << endl;
-}
+} // preconditions : none, post conditions : list is sorted into evens and odds and printed using iterators.
 int main()
 {
     test();

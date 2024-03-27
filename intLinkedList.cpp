@@ -13,7 +13,7 @@ void intLinkedList::splitEvensOdds(intLinkedList &evens, intLinkedList &odds) {
         }
         nodeType<int>* temp = current;
         current = current->link;
-        delete temp; 
-    }
+        delete temp;
+    } 
     this->first = this->last = nullptr;
 }
