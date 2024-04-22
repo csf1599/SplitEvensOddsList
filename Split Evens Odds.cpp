@@ -34,6 +34,11 @@ void test() {
         cout << *it << " ";
     }
     cout << endl;
+    cout << "list: ";
+    for (linkedListIterator<int> it = list.begin(); it != list.end(); ++it) {
+        cout << *it << " ";
+    }
+    cout << endl;
 } // preconditions : none, post conditions : list is sorted into evens and odds and printed using iterators.
 int main()
 {
